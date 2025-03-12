@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-image: url(/asserts/images/backgroud-img.jpg);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.main-container{
+    width: 30rem;
+    height: 22rem;
+    background-color: black;     
+    padding: 1rem;
+
+    opacity: 0.7;
+}
+.head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clear-btn{
+    height: 3rem;
+    width: 3rem;
+    background-color: red;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    margin-right: 0.5rem;
+    border-radius: 10%;
+}
+#input-text{
+    height: 3rem;
+    width: 35rem;
+    border-radius: 0.2rem;
+    font-size: 1.5rem;
+    text-align: end;
+    padding-right: 0.5rem;
+}
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 0.5rem;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.button{
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem; 
+
+    /* border: 1px solid white; */
+    box-shadow: 0rem 0.1rem 0.2rem gray;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+.button-function{
+    background-color: blanchedalmond;
+}
+.button-equal{
+    background-color: aquamarine;  
+}
+.button-equal:hover{
+    background-color: rgb(189, 181, 67);
+}
