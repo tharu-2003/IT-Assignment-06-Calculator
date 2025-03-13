@@ -12,7 +12,6 @@ body{
     height: 22rem;
     background-color: black;     
     padding: 1rem;
-
     opacity: 0.7;
 }
 .head-container{
@@ -35,6 +34,8 @@ body{
     width: 35rem;
     border-radius: 0.2rem;
     font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
     text-align: end;
     padding-right: 0.5rem;
 }
@@ -54,8 +55,6 @@ body{
     justify-content: center;
     font-weight: 700;
     font-size: 1.2rem; 
-
-    /* border: 1px solid white; */
     box-shadow: 0rem 0.1rem 0.2rem gray;
 }
 .button:hover{
