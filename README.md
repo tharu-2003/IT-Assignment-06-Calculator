@@ -1,39 +1,45 @@
-# IT Assignment 06 - Standard Calculator
+# IT-Assignment-06-Calculator
 
-A sleek, responsive web-based calculator built using HTML, CSS, and JavaScript. This project was developed as part of an IT assignment to demonstrate front-end development and basic arithmetic logic.
+A modern, responsive web-based calculator application built using HTML, CSS, and JavaScript. This project was designed to provide a clean user interface and reliable arithmetic functionality.
 
-## 📱 User Interface
-Below is a preview of the Calculator UI:
+## 🌐 Live Demo
+You can view the live application here:
+**[https://assignment-06-calculator.web.app/](https://assignment-06-calculator.web.app/?authuser=0)**
 
-![Calculator Preview](asserts/images/Calculator.png)
-*(Note: Please ensure the image exists in your asserts/images folder or update the path above)*
+---
+
+## 📱 Project Preview
+
+![Calculator UI](https://raw.githubusercontent.com/tharu-2003/IT-Assignment-06-Calculator/main/asserts/images/calculator-preview.png)
+> **Note:** To see your own image here, upload a screenshot named `calculator-preview.png` to your `asserts/images/` folder.
 
 ---
 
 ## 🚀 Features
-- **Basic Arithmetic:** Supports addition, subtraction, multiplication, and division.
-- **Responsive Design:** Fully optimized for both desktop and mobile screens.
-- **Clear & Delete:** Functions to clear the entire screen or delete the last digit.
-- **Glassmorphism UI:** Modern styling with smooth button transitions.
-- **Firebase Deployment:** Configured for hosting via Firebase.
+
+* **Arithmetic Operations:** Supports addition, subtraction, multiplication, and division.
+* **Clear & Delete:** Includes buttons to clear the entire display or delete the last character entered.
+* **Responsive Design:** Works seamlessly on desktops, tablets, and mobile phones.
+* **Modern UI:** Clean, minimalist design with interactive button effects.
+* **Firebase Integrated:** Hosted and deployed via Firebase for high performance.
 
 ---
 
-## 🛠️ Technologies Used
-- **HTML5:** For the structural layout.
-- **CSS3:** For custom styling and responsive UI.
-- **JavaScript (ES6):** For calculation logic and DOM manipulation.
-- **Firebase:** Tools used for project configuration and deployment.
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6)
+* **Hosting/Tools:** Firebase Hosting, GitHub
 
 ---
 
 ## 📂 Project Structure
+
 ```text
-├── asserts/          # Icons and UI images
-├── css/              # Stylesheets
-├── js/               # Logic and functionality scripts
-├── index.html        # Main entry point
-├── firebase.json     # Firebase configuration
-└── .firebaserc       # Firebase project aliases
-
-
+├── asserts/
+│   └── images/       # Project screenshots and icons
+├── css/              # External stylesheets
+├── js/               # JavaScript logic for calculations
+├── index.html        # Main HTML file
+├── 404.html          # Custom error page
+├── firebase.json     # Firebase deployment configuration
+└── .firebaserc       # Firebase project settings
