@@ -10,7 +10,7 @@ You can view the live application here:
 
 ## 📱 Project Preview
 
-![Calculator UI](https://raw.githubusercontent.com/tharu-2003/IT-Assignment-06-Calculator/main/asserts/images/calculator-preview.png)
+![Calculator UI](https://raw.githubusercontent.com/tharu-2003/IT-Assignment-06-Calculator/main/asserts/images/Calculator.png)
 > **Note:** To see your own image here, upload a screenshot named `calculator-preview.png` to your `asserts/images/` folder.
 
 ---
